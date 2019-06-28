@@ -1,0 +1,25 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(204, 221, 221);
+}
+.button {
+    border: .15rem solid black;
+    margin: .5rem;
+    width: 7.6rem;
+    height: 3rem;
+    background-color: rgba(10, 178, 245, 0.705);
+    letter-spacing: 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+.button:hover {
+    border: .15rem solid white;
+    cursor: pointer;
+}
+.list {
+    margin: .5rem;
+}
